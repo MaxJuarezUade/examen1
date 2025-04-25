@@ -1,5 +1,8 @@
-body {
+body, input, textarea, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
     background-color: #e9eff5;
     color: #333;
     margin: 0;
@@ -78,7 +81,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 0;
 }
 
 form {
