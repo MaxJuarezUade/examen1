@@ -78,13 +78,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-body::after {
-    content: '';
-    display: block;
-    height: 100px;
-    background-color: #3b5998;
+    margin-top: 100px;
 }
 
 form {
