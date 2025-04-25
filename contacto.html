@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="scripts/loadContent.js" defer></script>
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <h1>Contacto</h1>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer id="footer"></footer>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent form submission
+            alert('Mensaje enviado! gracias.');
+        }
+    </script>
+</body>
+</html>
