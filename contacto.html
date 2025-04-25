@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <script src="scripts/loadContent.js" defer></script>
+    <script src="scripts/formHandler.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header id="header"></header>
     <main>
         <h1>Contacto</h1>
-        <form id="contactForm">
+        <form id="contactForm" onsubmit="return showMessage()">
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required placeholder="Ingrese su nombre"><br>
 
@@ -25,11 +26,5 @@
         </form>
     </main>
     <footer id="footer"></footer>
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault(); // Prevent form submission
-            alert('Mensaje enviado! gracias.');
-        }
-    </script>
 </body>
 </html>
