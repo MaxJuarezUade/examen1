@@ -86,7 +86,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
     max-width: 400px;
     margin: 0 auto;
 }
@@ -103,6 +103,10 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
+}
+
+form textarea {
+    height: 140px;
 }
 
 form button {
@@ -126,4 +130,67 @@ form button:hover {
     border-radius: 50%;
     display: block;
     margin: 20px auto;
+}
+
+#materias-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#materias-table th, #materias-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#materias-table th {
+    background-color: #3b5998;
+    color: white;
+}
+
+#materias-table tr:nth-child(even) {
+    background-color: transparent;
+}
+
+#materias-table tr:hover {
+    background-color: transparent;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+main ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+main ul li ul {
+    margin-top: 10px;
+}
+
+main ul li ul li {
+    background-color: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+
+.parent {
+    font-size: 1.1em;
+}
+
+.child {
+    font-size: 0.85em;
 } 
