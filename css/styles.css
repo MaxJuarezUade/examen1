@@ -231,4 +231,8 @@ main ul li ul li {
     footer ul, a {
         font-size: 0.8em;
     }
+
+    main {
+        max-width: 90%;
+    }
 }
