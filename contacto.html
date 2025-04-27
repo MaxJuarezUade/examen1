@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header id="header"></header>
-    <main>
-        <h1>Contacto</h1>
-        <form id="contactForm" onsubmit="return showMessage()">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required placeholder="Ingrese su nombre"><br>
+    <div class="wrapper">
+        <header id="header"></header>
+        <main>
+            <h1>Contacto</h1>
+            <form id="contactForm" onsubmit="return showMessage()">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required placeholder="Ingrese su nombre"><br>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required placeholder="Ingrese su correo electrónico"><br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="Ingrese su correo electrónico"><br>
 
-            <label for="subject">Asunto:</label>
-            <input type="text" id="subject" name="subject" required placeholder="Ingrese el asunto"><br>
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Ingrese el asunto"><br>
 
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required placeholder="Escriba su mensaje"></textarea><br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required placeholder="Escriba su mensaje"></textarea><br>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </main>
-    <footer id="footer"></footer>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <footer id="footer"></footer>
+    </div>
 </body>
 </html>
