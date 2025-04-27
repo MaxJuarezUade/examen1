@@ -82,15 +82,6 @@ footer {
     margin: 0;
 }
 
-footer a {
-    color: #3b5998; /* Light blue color */
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -202,8 +193,4 @@ main ul li ul li {
 
 .child {
     font-size: 0.85em;
-}
-
-a:visited {
-    color: #3b5998; /* Same light blue color */
 } 
