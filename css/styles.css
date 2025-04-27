@@ -84,8 +84,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
-    max-width: 400px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -193,6 +192,15 @@ main ul li ul li {
     font-weight: normal;
 }
 
+.sitemap-container {
+    a {
+        color: #3b5998;
+    }
+    a:visited {
+        color: #3b5998;
+    }
+}
+
 /* Tablet styles */
 @media (min-width: 769px) and (max-width: 1024px) {
     h1 {
@@ -201,6 +209,10 @@ main ul li ul li {
     /*body, input, textarea, button, p, ul, li, table, th, td, form label {
         font-size: 0.9em;
     }*/
+
+    header ul {
+        font-size: 1em;
+    }
 }
 
 /* Mobile styles */
@@ -211,4 +223,8 @@ main ul li ul li {
     /*body, input, textarea, button, p, ul, li, table, th, td, form label {
         font-size: 0.8em;
     }*/
+
+    header ul {
+        font-size: 0.9em;
+    }
 }
