@@ -9,5 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     loadContent('header.html', 'header');
-    loadContent('footer.html', 'footer');
+
+    // Cargar un footer distinto si estamos en la pagina de Diseño y Desarrollo Web
+    const currentFile = window.location.pathname.split('/').pop();
+    const footerFile = currentFile === 'dydw.html' ? 'footer2.html' : 'footer.html';
+    loadContent(footerFile, 'footer');
 }); 

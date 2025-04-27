@@ -291,6 +291,10 @@ main ul li ul li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.dydw-box ul li {
+    font-weight: normal;
+}
+
 @media (max-width: 768px) {
     .dydw-content {
         flex-direction: column;
