@@ -224,11 +224,15 @@ main ul li ul li {
         font-size: 0.8em;
     }*/
 
+    #indextable-container {
+        font-size: 0.7em;
+    }
+
     header ul {
         font-size: 0.9em;
     }
 
-    footer ul, a {
+    footer p, a {
         font-size: 0.8em;
     }
 
