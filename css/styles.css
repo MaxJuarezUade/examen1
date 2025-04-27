@@ -168,7 +168,6 @@ main ul li {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1.1em;
 }
 
 main ul li ul {
@@ -184,10 +183,10 @@ main ul li ul li {
     font-size: 0.9em;
 }
 
-.parent {
+/*.parent {
     font-size: 1.1em;
 }
 
 .child {
     font-size: 0.85em;
-} 
+} */
