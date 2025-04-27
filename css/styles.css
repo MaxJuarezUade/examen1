@@ -220,9 +220,6 @@ main ul li ul li {
     h1 {
         font-size: 1.5em;
     }
-    /*body, input, textarea, button, p, ul, li, table, th, td, form label {
-        font-size: 0.8em;
-    }*/
 
     #indextable-container {
         font-size: 0.7em;
@@ -232,7 +229,7 @@ main ul li ul li {
         font-size: 0.9em;
     }
 
-    footer p, a {
+    #footer-content {
         font-size: 0.8em;
     }
 
