@@ -262,6 +262,7 @@ main ul li ul li {
 
     .wrapper {
         min-height: 100vh;
+        min-height: 100dvh; /* Will override if supported */
         display: flex;
         flex-direction: column;
       }
