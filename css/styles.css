@@ -229,6 +229,10 @@ main ul li ul li {
         font-size: 1em;
     }
 
+    header li {
+        margin: 0 8px;
+    }
+
     #footer-content {
         font-size: 0.8em;
     }
